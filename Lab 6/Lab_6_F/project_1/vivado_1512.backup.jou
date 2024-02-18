@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar  3 20:59:53 2020
+# Process ID: 1512
+# Current directory: Z:/122/Lab_6_F/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1600 Z:\122\Lab_6_F\project_1\project_1.xpr
+# Log file: Z:/122/Lab_6_F/project_1/vivado.log
+# Journal file: Z:/122/Lab_6_F/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/122/Lab_6_F/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+update_module_reference design_1_Lab6_IMEM_0_0
+update_module_reference design_1_STAGING_0_2
+export_ip_user_files -of_objects  [get_files Z:/122/Lab_6_F/project_1/L6_tb_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 Z:/122/Lab_6_F/project_1/L6_tb_behav.wcfg
+close [ open Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg1.v w ]
+add_files Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg1.v
+close [ open Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v w ]
+add_files Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v
+update_compile_order -fileset sources_1
+add_files -norecurse Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v
+update_module_reference design_1_STAGING_0_2
+close [ open Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v w ]
+add_files Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v
+close [ open Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/WB_staging.v w ]
+add_files Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/WB_staging.v
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+show_objects -name op_out [get_bd_cells -hierarchical "*" ]
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source L6_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/L6_tb/rf/datastorage}} 
+save_wave_config {Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg}
+add_files -fileset sim_1 -norecurse Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+set_property xsim.view {Z:/122/Lab_6_F/project_1/L6_tb_behav.wcfg Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+source L6_tb.tcl
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/WrX}} 
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/dst}} 
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/wbdata}} 
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/rf/waddr}} 
+save_wave_config {Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+source L6_tb.tcl
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/dst_s2}} 
+save_wave_config {Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+source L6_tb.tcl
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/alu/adder_out}} 
+save_wave_config {Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+source L6_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+source L6_tb.tcl
+current_wave_config {L6_tb_behav1.wcfg}
+add_wave {{/L6_tb/dmem/Data}} 
+save_wave_config {Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config Z:/122/Lab_6_F/project_1/L6_tb_behav1.wcfg
+source L6_tb.tcl
+close_sim

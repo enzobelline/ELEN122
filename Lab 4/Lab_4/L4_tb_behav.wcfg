@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="L4_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="L4_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8600000fs"></ZoomStartTime>
+      <ZoomEndTime time="152000001fs"></ZoomEndTime>
+      <Cursor1Time time="237000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="153"></NameColumnWidth>
+      <ValueColumnWidth column_width="161"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/L4_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/exec" type="logic">
+      <obj_property name="ElementShortName">exec</obj_property>
+      <obj_property name="ObjectShortName">exec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/extern" type="logic">
+      <obj_property name="ElementShortName">extern</obj_property>
+      <obj_property name="ObjectShortName">extern</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/gout" type="logic">
+      <obj_property name="ElementShortName">gout</obj_property>
+      <obj_property name="ObjectShortName">gout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/ain" type="logic">
+      <obj_property name="ElementShortName">ain</obj_property>
+      <obj_property name="ObjectShortName">ain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/gin" type="logic">
+      <obj_property name="ElementShortName">gin</obj_property>
+      <obj_property name="ObjectShortName">gin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/din" type="logic">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/rdx" type="logic">
+      <obj_property name="ElementShortName">rdx</obj_property>
+      <obj_property name="ObjectShortName">rdx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/rdy" type="logic">
+      <obj_property name="ElementShortName">rdy</obj_property>
+      <obj_property name="ObjectShortName">rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/wrx" type="logic">
+      <obj_property name="ElementShortName">wrx</obj_property>
+      <obj_property name="ObjectShortName">wrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/add_sub" type="logic">
+      <obj_property name="ElementShortName">add_sub</obj_property>
+      <obj_property name="ObjectShortName">add_sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/rf_select" type="logic">
+      <obj_property name="ElementShortName">rf_select</obj_property>
+      <obj_property name="ObjectShortName">rf_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/sw_select" type="logic">
+      <obj_property name="ElementShortName">sw_select</obj_property>
+      <obj_property name="ObjectShortName">sw_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/pc_en" type="logic">
+      <obj_property name="ElementShortName">pc_en</obj_property>
+      <obj_property name="ObjectShortName">pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/ir_en" type="logic">
+      <obj_property name="ElementShortName">ir_en</obj_property>
+      <obj_property name="ObjectShortName">ir_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/memwr" type="logic">
+      <obj_property name="ElementShortName">memwr</obj_property>
+      <obj_property name="ObjectShortName">memwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/addrsel" type="logic">
+      <obj_property name="ElementShortName">addrsel</obj_property>
+      <obj_property name="ObjectShortName">addrsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/smstate" type="array">
+      <obj_property name="ElementShortName">smstate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">smstate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/aout" type="array">
+      <obj_property name="ElementShortName">aout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/adder_out" type="array">
+      <obj_property name="ElementShortName">adder_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/gdata" type="array">
+      <obj_property name="ElementShortName">gdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/mout" type="array">
+      <obj_property name="ElementShortName">mout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/IM_out" type="array">
+      <obj_property name="ElementShortName">IM_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IM_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/mem_out" type="array">
+      <obj_property name="ElementShortName">mem_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/RF/datastorage" type="array">
+      <obj_property name="ElementShortName">datastorage[15:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">datastorage[15:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/ir_op" type="array">
+      <obj_property name="ElementShortName">ir_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/ir_rd" type="array">
+      <obj_property name="ElementShortName">ir_rd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_rd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/ir_rs1" type="array">
+      <obj_property name="ElementShortName">ir_rs1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_rs1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/ir_rs2" type="array">
+      <obj_property name="ElementShortName">ir_rs2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_rs2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/regdata" type="array">
+      <obj_property name="ElementShortName">regdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">regdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/rf_0" type="array">
+      <obj_property name="ElementShortName">rf_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/rf_1" type="array">
+      <obj_property name="ElementShortName">rf_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/chopped_rfaddr" type="array">
+      <obj_property name="ElementShortName">chopped_rfaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">chopped_rfaddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/mm_out" type="array">
+      <obj_property name="ElementShortName">mm_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/se_imm" type="array">
+      <obj_property name="ElementShortName">se_imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">se_imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/mem/DataOut" type="array">
+      <obj_property name="ElementShortName">DataOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L4_tb/mem/instructions" type="array">
+      <obj_property name="ElementShortName">instructions[256:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">instructions[256:0][15:0]</obj_property>
+   </wvobject>
+</wave_config>

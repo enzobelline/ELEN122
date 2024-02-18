@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../L1_ALU.v" \
+"../../../../L1_simple_reg.v" \
+"../../../../Lab2_RF.v" \
+"../../../../data_mux.v" \
+"../../../../Lab 2.srcs/sim_1/new/imme_mux.v" \
+"../../../../Lab 2.srcs/sim_1/new/main.v" \
+"../../../../Lab2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

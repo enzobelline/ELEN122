@@ -1,0 +1,35 @@
+//program for lab 4
+//format: opcode, rdest, rsrc1, rsrc2/imm
+2000 // clear r0
+2111 // clear r1
+2222 // clear r2
+2333 // clear r3
+2777 // clear r7
+2DDD // clear r13
+2EEE // clear r14
+2FFF // clear r15
+5006 //load value 6 into r0 using addi
+3110 //add r1=r1+r0 to get 6
+3110 //add r1=r1+r0 to get 12
+3110 //add r1=r1+r0 to get 18
+3110 //add r1=r1+r0 to get 24
+3110 //add r1=r1+r0 to get 30
+3110 //add r1=r1+r0 to get 36
+3110 //add r1=r1+r0 to get 42
+3110 //add r1=r1+r0 to get 48
+6005 //now get 49 into r2, load r0 with 1 by subtracting immediate 5 from 6
+3210 //add r2=r1+r0 to get 49
+3320 //now get 50 into r3, add r3=r2+r0 to get 50
+0D10 //now load the contents of mem at addr 48 into r13. dest is d (r13), src1 is r1 which holds 48
+0E20 //now load the contents of mem at addr 49 into r14. dest is e (r14), src1 is r2 which holds 49
+3FED //add the 2 values into r15
+0730 //load address to store in from addr 50 into reg 7. dest is r7, src1 is r3 which holds 50
+107F //store result addr now held in r7
+0070 //load the value into r0 to verify store
+4000 //display the loaded value
+7000 //done, halt
+
+
+
+
+//HUGE NOTE! putting comments in between lines messes it up so dont do that.

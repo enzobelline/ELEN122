@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab2_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab2_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/Lab2_tb/op" type="array">
+      <obj_property name="ElementShortName">op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/tb_data" type="array">
+      <obj_property name="ElementShortName">tb_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/tb_addrx" type="array">
+      <obj_property name="ElementShortName">tb_addrx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_addrx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/tb_addry" type="array">
+      <obj_property name="ElementShortName">tb_addry[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_addry[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/exec" type="logic">
+      <obj_property name="ElementShortName">exec</obj_property>
+      <obj_property name="ObjectShortName">exec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/extern" type="logic">
+      <obj_property name="ElementShortName">extern</obj_property>
+      <obj_property name="ObjectShortName">extern</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/gout" type="logic">
+      <obj_property name="ElementShortName">gout</obj_property>
+      <obj_property name="ObjectShortName">gout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/ain" type="logic">
+      <obj_property name="ElementShortName">ain</obj_property>
+      <obj_property name="ObjectShortName">ain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/gin" type="logic">
+      <obj_property name="ElementShortName">gin</obj_property>
+      <obj_property name="ObjectShortName">gin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/din" type="logic">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/rdx" type="logic">
+      <obj_property name="ElementShortName">rdx</obj_property>
+      <obj_property name="ObjectShortName">rdx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/rdy" type="logic">
+      <obj_property name="ElementShortName">rdy</obj_property>
+      <obj_property name="ObjectShortName">rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/wrx" type="logic">
+      <obj_property name="ElementShortName">wrx</obj_property>
+      <obj_property name="ObjectShortName">wrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/add_sub" type="logic">
+      <obj_property name="ElementShortName">add_sub</obj_property>
+      <obj_property name="ObjectShortName">add_sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/rf_select" type="logic">
+      <obj_property name="ElementShortName">rf_select</obj_property>
+      <obj_property name="ObjectShortName">rf_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/sw_select" type="logic">
+      <obj_property name="ElementShortName">sw_select</obj_property>
+      <obj_property name="ObjectShortName">sw_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/smstate" type="array">
+      <obj_property name="ElementShortName">smstate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">smstate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/rf_out" type="array">
+      <obj_property name="ElementShortName">rf_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/aout" type="array">
+      <obj_property name="ElementShortName">aout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/adder_out" type="array">
+      <obj_property name="ElementShortName">adder_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/gdata" type="array">
+      <obj_property name="ElementShortName">gdata[3:0]</obj_property>
+      <obj_property name="ObjectShortName">gdata[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/mout" type="array">
+      <obj_property name="ElementShortName">mout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/IM_out" type="array">
+      <obj_property name="ElementShortName">IM_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IM_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/r0" type="array">
+      <obj_property name="ElementShortName">r0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/r1" type="array">
+      <obj_property name="ElementShortName">r1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/r2" type="array">
+      <obj_property name="ElementShortName">r2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/r3" type="array">
+      <obj_property name="ElementShortName">r3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_tb/RF/datastorage" type="array">
+      <obj_property name="ElementShortName">datastorage[3:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">datastorage[3:0][3:0]</obj_property>
+   </wvobject>
+</wave_config>

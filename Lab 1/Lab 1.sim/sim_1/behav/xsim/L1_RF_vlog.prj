@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab 1.srcs/sources_1/imports/Lab 1/L1_display_driver.v" \
+"../../../../Lab 1.srcs/sources_1/imports/Lab 1/bin_7seg.v" \
+"../../../../Lab 1.srcs/sources_1/imports/Lab 1/L1_RF.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

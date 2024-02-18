@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab_3.srcs/sim_1/new/L3_ALU.v" \
+"../../../../Lab_3.srcs/sim_1/new/L3_SM.v" \
+"../../../../Lab_3.srcs/sim_1/new/L3_simple_reg.v" \
+"../../../../../Lab2_RF.v" \
+"../../../../../Lab3_IR.v" \
+"../../../../../Lab3_MEM.v" \
+"../../../../../Lab3_PC.v" \
+"../../../../../data_mux.v" \
+"../../../../Lab_3.srcs/sim_1/new/immed_mux.v" \
+"../../../../../L3_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

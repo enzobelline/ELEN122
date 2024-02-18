@@ -1,0 +1,13 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/lkim/Lab 1/Lab 1.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_ALU.v,1579301356,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_RF.v,,L1_ALU,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_RF.v,1579733691,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_display_driver.v,,L1_RF,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_display_driver.v,1579301359,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_simple_reg.v,,L1_display_driver,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_simple_reg.v,1579301364,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/new/Lab_1_Project.v,,L1_simple_reg,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_tb.v,1579734893,verilog,,,,L1_tb,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/bin_7seg.v,1579301349,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/data_mux.v,,bin_7seg,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/data_mux.v,1579301353,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/L1_tb.v,,data_mux,,,,,,,,
+C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/new/Lab_1_Project.v,1579735414,verilog,,C:/Users/lkim/Lab 1/Lab 1.srcs/sources_1/imports/Lab 1/bin_7seg.v,,Lab_1_Project,,,,,,,,

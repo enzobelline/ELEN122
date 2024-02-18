@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab_5.srcs/sim_1/new/BranchControl.v" \
+"../../../../Lab_5.srcs/sim_1/new/CT_mux.v" \
+"../../../../../../Lab 1/L1_ALU.v" \
+"../../../../../../Lab 1/L1_simple_reg.v" \
+"../../../../../../Lab 4/L4_RF.v" \
+"../../../../Lab_5.srcs/sim_1/new/L5_SM.v" \
+"../../../../../../Lab 4/LSByte.v" \
+"../../../../Lab5_BranchPC.v" \
+"../../../../Lab_5.srcs/sim_1/new/Lab5_IR.v" \
+"../../../../Lab5_MEM.v" \
+"../../../../Lab5_PC.v" \
+"../../../../MemMux.v" \
+"../../../../../../Lab 4/SE_16.v" \
+"../../../../Lab_5.srcs/sim_1/new/SPC_mux.v" \
+"../../../../ZE_16.v" \
+"../../../../../../Lab 2/data_mux.v" \
+"../../../../Lab_5.srcs/sim_1/new/imm_mux.v" \
+"../../../../L5_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

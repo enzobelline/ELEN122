@@ -1,0 +1,52 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.423012",
+   "Default View_TopLeft":"-7,-537",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst IR_0 -pg 1 -lvl 3 -x 580 -y 110 -defaultsOSRD
+preplace inst simple_reg_0 -pg 1 -lvl 9 -x 2330 -y 90 -defaultsOSRD
+preplace inst RF_0 -pg 1 -lvl 6 -x 1510 -y 270 -defaultsOSRD
+preplace inst simple_reg_1 -pg 1 -lvl 9 -x 2330 -y 270 -defaultsOSRD
+preplace inst ALU_0 -pg 1 -lvl 10 -x 2630 -y 130 -defaultsOSRD
+preplace inst immediate_mux_0 -pg 1 -lvl 8 -x 2080 -y 200 -defaultsOSRD
+preplace inst simple_reg_2 -pg 1 -lvl 11 -x 2900 -y 150 -defaultsOSRD
+preplace inst MDR_0 -pg 1 -lvl 9 -x 2330 -y -420 -defaultsOSRD
+preplace inst Lab6_PC_0 -pg 1 -lvl 1 -x 30 -y 50 -defaultsOSRD
+preplace inst lab6_DMEM_0 -pg 1 -lvl 7 -x 1810 -y -450 -defaultsOSRD
+preplace inst lab6_DECODE_0 -pg 1 -lvl 4 -x 880 -y -120 -defaultsOSRD
+preplace inst Lab6_IMEM_0 -pg 1 -lvl 2 -x 290 -y 40 -defaultsOSRD
+preplace inst STAGING_0 -pg 1 -lvl 5 -x 1200 -y -120 -defaultsOSRD
+preplace netloc Lab6_PC_0_PC_out 1 1 1 N 50
+preplace netloc Lab6_IMEM_0_DataOut 1 2 1 430 40n
+preplace netloc simple_reg_1_Aout 1 9 1 2490 130n
+preplace netloc simple_reg_0_Aout 1 9 1 2470 90n
+preplace netloc immediate_mux_0_B 1 8 1 2190 200n
+preplace netloc RF_0_out_data_0 1 6 3 1650 70 N 70 N
+preplace netloc RF_0_out_data_1 1 6 2 1660 180 N
+preplace netloc IR_0_src_reg2 1 3 5 N 140 1060 150 N 150 N 150 1950
+preplace netloc ALU_0_adder_out 1 10 1 N 130
+preplace netloc lab6_DMEM_0_DataOut 1 7 2 N -440 N
+preplace netloc IR_0_opcode 1 3 1 750 -120n
+preplace netloc lab6_DECODE_0_WrX 1 4 1 1050 -200n
+preplace netloc lab6_DECODE_0_D 1 4 1 1060 -220n
+preplace netloc lab6_DECODE_0_MemWr 1 4 1 1030 -180n
+preplace netloc lab6_DECODE_0_MemRd 1 4 1 1010 -160n
+preplace netloc lab6_DECODE_0_sub 1 4 1 1010 -110n
+preplace netloc IR_0_dest_reg 1 3 2 740 -280 1020J
+preplace netloc IR_0_src_reg1 1 3 2 730 -290 1040J
+preplace netloc lab6_DECODE_0_spc 1 4 1 1030 -90n
+preplace netloc STAGING_0_Wrx_out 1 5 1 1350 -210n
+preplace netloc STAGING_0_sub_out 1 5 5 NJ -190 NJ -190 N -190 N -190 2480
+preplace netloc STAGING_0_rf_0_out 1 5 1 1370 -110n
+preplace netloc STAGING_0_rf_1_out 1 5 1 1340 -90n
+preplace netloc lab6_DECODE_0_imm 1 4 1 1000 -140n
+preplace netloc STAGING_0_rfdata_out 1 5 3 NJ -50 N -50 1960
+preplace netloc STAGING_0_memWr_out 1 5 2 1360 -430 NJ
+preplace netloc STAGING_0_MemRd_out 1 5 2 1370 -410 NJ
+levelinfo -pg 1 -90 30 290 580 880 1200 1510 1810 2080 2330 2630 2900 3140
+pagesize -pg 1 -db -bbox -sgen -90 -620 3140 620
+"
+}
+0

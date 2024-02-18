@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="L6_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="L6_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="45000000fs"></ZoomStartTime>
+      <ZoomEndTime time="91368466fs"></ZoomEndTime>
+      <Cursor1Time time="60152000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/L6_tb/pc" type="array">
+      <obj_property name="ElementShortName">pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/dst" type="array">
+      <obj_property name="ElementShortName">dst[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/rf/waddr" type="array">
+      <obj_property name="ElementShortName">waddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/src1" type="array">
+      <obj_property name="ElementShortName">src1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">src1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/rf_0" type="array">
+      <obj_property name="ElementShortName">rf_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/rf_0_s" type="array">
+      <obj_property name="ElementShortName">rf_0_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_0_s[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/rf_1" type="array">
+      <obj_property name="ElementShortName">rf_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/rf_1_s" type="array">
+      <obj_property name="ElementShortName">rf_1_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_1_s[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/pc_1stage" type="array">
+      <obj_property name="ElementShortName">pc_1stage[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_1stage[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/B_in" type="array">
+      <obj_property name="ElementShortName">B_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/A_out" type="array">
+      <obj_property name="ElementShortName">A_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/B_out" type="array">
+      <obj_property name="ElementShortName">B_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/dmem_data" type="array">
+      <obj_property name="ElementShortName">dmem_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_data[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/spc_s2" type="logic">
+      <obj_property name="ElementShortName">spc_s2</obj_property>
+      <obj_property name="ObjectShortName">spc_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/MemRd_s2" type="logic">
+      <obj_property name="ElementShortName">MemRd_s2</obj_property>
+      <obj_property name="ObjectShortName">MemRd_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/rf/datastorage" type="array">
+      <obj_property name="ElementShortName">datastorage[15:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">datastorage[15:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/WrX" type="logic">
+      <obj_property name="ElementShortName">WrX</obj_property>
+      <obj_property name="ObjectShortName">WrX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/wbdata" type="array">
+      <obj_property name="ElementShortName">wbdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wbdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/dst" type="array">
+      <obj_property name="ElementShortName">dst[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/dst_s" type="array">
+      <obj_property name="ElementShortName">dst_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/dst_s2" type="array">
+      <obj_property name="ElementShortName">dst_s2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_s2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/alu/adder_out" type="array">
+      <obj_property name="ElementShortName">adder_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/L6_tb/dmem/Data" type="array">
+      <obj_property name="ElementShortName">Data[256:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[256:0][15:0]</obj_property>
+   </wvobject>
+</wave_config>

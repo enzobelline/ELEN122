@@ -1,0 +1,17 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/L1_ALU.v,1581116534,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/L1_simple_reg.v,,L1_ALU,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/L1_simple_reg.v,1581120025,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/L3_SM.v,,L1_simple_reg,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/L3_tb.v,1584048104,verilog,,,,L3_tb,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab2_RF.v,1584049969,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab3_IR.v,,Lab2_RF,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab3_IR.v,1584046572,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab3_MEM.v,,Lab3_IR,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab3_MEM.v,1580506000,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab3_PC.v,,Lab3_MEM,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab3_PC.v,1580506002,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/data_mux.v,,Lab3_PC,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/L3_ALU.v,1584048213,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/L3_SM.v,,L3_ALU,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/L3_SM.v,1584051007,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/L3_simple_reg.v,,L3_SM,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/L3_simple_reg.v,1584048313,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab2_RF.v,,L3_simple_reg,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/immed_mux.v,1584048010,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/L3_tb.v,,immed_mux,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 3/data_mux.v,1584048018,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 3/Lab_3/Lab_3.srcs/sim_1/new/immed_mux.v,,data_mux,,,,,,,,

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="37">
+  <CompositeFile CompositeFileTopName="Lab_2" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1579904405"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1579904405"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1579904405"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1579904405"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\Lab_2_Lab2_RF_0_1\Lab_2_Lab2_RF_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Lab2_RF_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Lab_2_L1_ALU_0_1\Lab_2_L1_ALU_0_1.xci" Type="IP">
+        <Instance HierarchyPath="L1_ALU_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Lab_2_L1_simple_reg_0_1\Lab_2_L1_simple_reg_0_1.xci" Type="IP">
+        <Instance HierarchyPath="L1_simple_reg_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Lab_2_L1_simple_reg_1_1\Lab_2_L1_simple_reg_1_1.xci" Type="IP">
+        <Instance HierarchyPath="L1_simple_reg_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Lab_2_L1_simple_reg_2_0\Lab_2_L1_simple_reg_2_0.xci" Type="IP">
+        <Instance HierarchyPath="L1_simple_reg_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Lab_2_imme_mux_0_0\Lab_2_imme_mux_0_0.xci" Type="IP">
+        <Instance HierarchyPath="imme_mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Lab_2_split_switch_0_0\Lab_2_split_switch_0_0.xci" Type="IP">
+        <Instance HierarchyPath="split_switch_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

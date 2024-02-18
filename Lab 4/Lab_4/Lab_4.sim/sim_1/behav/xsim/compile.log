@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_simple_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1_simple_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/L4_RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L4_RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/L4_SM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L4_SM
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/LSByte.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LSByte
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/Lab_4/Lab_4.srcs/sim_1/new/Lab3_IReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab3_IReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/Lab_4/Lab_4.srcs/sim_1/new/Lab3_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab3_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/Lab_4/Lab_4.srcs/sim_1/new/Lab4_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab4_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/MemMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/SE_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SE_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 1/data_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/Lab_4/Lab_4.srcs/sim_1/new/imm_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/Lab4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L4_tb

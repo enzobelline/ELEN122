@@ -1,0 +1,34 @@
+2000 // clear r0
+2111 // clear r1
+2222 // clear r2
+2333 // clear r3
+2444 // clear r4
+2777 // clear r5
+
+2DDD // clear r13
+2EEE // clear r14
+2FFF // clear r15
+
+5006 // R0=6
+3110 //add r1=6
+3110 //add r1=12
+3110 //add r1=18
+3110 //add r1=24
+3110 //add r1=30
+3110 //add r1=36
+3110 //add r1=42
+3110 //add r1=48
+
+5211 // R2=49
+5312 // R3=50
+
+0d10 // r13=mem[48]
+0e20 // r14=mem[50]
+3fed // r15=r13+r14
+
+0430 // load addr of mem[50]
+104f // store r15 in mem[50]
+0540 // r5=mem[50]
+
+4500 // Display R4
+7000 // Halt

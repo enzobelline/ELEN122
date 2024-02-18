@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/L1_ALU.v,1579301356,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 2/L1_simple_reg.v,,L1_ALU,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/L1_simple_reg.v,1579301364,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab2_RF.v,,L1_simple_reg,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.srcs/sim_1/new/imme_mux.v,1579909132,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.srcs/sim_1/new/main.v,,imme_mux,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.srcs/sim_1/new/main.v,1579909630,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab2_tb.v,,main,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab2_RF.v,1579832042,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 2/data_mux.v,,Lab2_RF,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab2_tb.v,1579908479,verilog,,,,Lab2_tb,,,,,,,,
+Z:/dcengr/Desktop/ELEN 122L/Lab 2/data_mux.v,1579301353,verilog,,Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.srcs/sim_1/new/imme_mux.v,,data_mux,,,,,,,,

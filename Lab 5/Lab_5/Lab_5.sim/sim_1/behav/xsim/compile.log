@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/BranchControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/CT_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CT_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_simple_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1_simple_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/L4_RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L4_RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/L5_SM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L5_SM
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/LSByte.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LSByte
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab5_BranchPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_BranchPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/Lab5_IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab5_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab5_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/MemMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 4/SE_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SE_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/SPC_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPC_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/ZE_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZE_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/data_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/imm_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/L5_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L5_tb

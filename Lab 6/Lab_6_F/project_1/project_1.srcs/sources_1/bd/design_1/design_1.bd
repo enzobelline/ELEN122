@@ -1,0 +1,688 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-2",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1"
+    },
+    "design_tree": {
+      "IR_0": "",
+      "simple_reg_0": "",
+      "RF_0": "",
+      "simple_reg_1": "",
+      "ALU_0": "",
+      "immediate_mux_0": "",
+      "simple_reg_2": "",
+      "MDR_0": "",
+      "Lab6_PC_0": "",
+      "lab6_DMEM_0": "",
+      "lab6_DECODE_0": "",
+      "Lab6_IMEM_0": "",
+      "STAGING_0": ""
+    },
+    "components": {
+      "IR_0": {
+        "vlnv": "xilinx.com:module_ref:IR:1.0",
+        "xci_name": "design_1_IR_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "IR",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "mem_data": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "IRin": {
+            "direction": "I"
+          },
+          "opcode": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "dest_reg": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "src_reg1": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "src_reg2": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "simple_reg_0": {
+        "vlnv": "xilinx.com:module_ref:simple_reg:1.0",
+        "xci_name": "design_1_simple_reg_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "simple_reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "Ain": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "Aout": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "RF_0": {
+        "vlnv": "xilinx.com:module_ref:RF:1.0",
+        "xci_name": "design_1_RF_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RF",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "raddr_0": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "raddr_1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "waddr": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "WrX": {
+            "direction": "I"
+          },
+          "out_data_0": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "out_data_1": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "regdata": {
+            "direction": "O",
+            "left": "255",
+            "right": "0"
+          }
+        }
+      },
+      "simple_reg_1": {
+        "vlnv": "xilinx.com:module_ref:simple_reg:1.0",
+        "xci_name": "design_1_simple_reg_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "simple_reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "Ain": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "Aout": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "ALU_0": {
+        "vlnv": "xilinx.com:module_ref:ALU:1.0",
+        "xci_name": "design_1_ALU_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ALU",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_A": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "in_B": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "add_sub": {
+            "direction": "I"
+          },
+          "adder_out": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "immediate_mux_0": {
+        "vlnv": "xilinx.com:module_ref:immediate_mux:1.0",
+        "xci_name": "design_1_immediate_mux_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "immediate_mux",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "RF": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "imm": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "RF_imm": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "simple_reg_2": {
+        "vlnv": "xilinx.com:module_ref:simple_reg:1.0",
+        "xci_name": "design_1_simple_reg_2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "simple_reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "Ain": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "Aout": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "MDR_0": {
+        "vlnv": "xilinx.com:module_ref:MDR:1.0",
+        "xci_name": "design_1_MDR_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "MDR",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "MD_in": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "MD_out": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "Lab6_PC_0": {
+        "vlnv": "xilinx.com:module_ref:Lab6_PC:1.0",
+        "xci_name": "design_1_Lab6_PC_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Lab6_PC",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "PC_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "lab6_DMEM_0": {
+        "vlnv": "xilinx.com:module_ref:lab6_DMEM:1.0",
+        "xci_name": "design_1_lab6_DMEM_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "lab6_DMEM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "Address": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MemWr": {
+            "direction": "I"
+          },
+          "MemRd": {
+            "direction": "I"
+          },
+          "DataValid": {
+            "direction": "O"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "lab6_DECODE_0": {
+        "vlnv": "xilinx.com:module_ref:lab6_DECODE:1.0",
+        "xci_name": "design_1_lab6_DECODE_0_0",
+        "reference_info": {
+          "ref_type": "unknown",
+          "ref_name": "lab6_DECODE",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "opcode": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "D": {
+            "direction": "O"
+          },
+          "WrX": {
+            "direction": "O"
+          },
+          "MemWr": {
+            "direction": "O"
+          },
+          "MemRd": {
+            "direction": "O"
+          },
+          "imm": {
+            "direction": "O"
+          },
+          "bz": {
+            "direction": "O"
+          },
+          "bnz": {
+            "direction": "O"
+          },
+          "jmp": {
+            "direction": "O"
+          },
+          "sub": {
+            "direction": "O"
+          },
+          "spc": {
+            "direction": "O"
+          },
+          "halt": {
+            "direction": "O"
+          }
+        }
+      },
+      "Lab6_IMEM_0": {
+        "vlnv": "xilinx.com:module_ref:Lab6_IMEM:1.0",
+        "xci_name": "design_1_Lab6_IMEM_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Lab6_IMEM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "address": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "STAGING_0": {
+        "vlnv": "xilinx.com:module_ref:STAGING:1.0",
+        "xci_name": "design_1_STAGING_0_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "STAGING",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "LD_EN": {
+            "direction": "I"
+          },
+          "D_in": {
+            "direction": "I"
+          },
+          "WrX_in": {
+            "direction": "I"
+          },
+          "MemWr_in": {
+            "direction": "I"
+          },
+          "MemRd_in": {
+            "direction": "I"
+          },
+          "sub_in": {
+            "direction": "I"
+          },
+          "spc_in": {
+            "direction": "I"
+          },
+          "rfdata_in": {
+            "direction": "I"
+          },
+          "rf_1_in": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "rf_0_in": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "dst_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "Wrx_out": {
+            "direction": "O"
+          },
+          "sub_out": {
+            "direction": "O"
+          },
+          "MemRd_out": {
+            "direction": "O"
+          },
+          "MemWr_out": {
+            "direction": "O"
+          },
+          "dst_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "rf_0_out": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "rf_1_out": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "D_out": {
+            "direction": "O"
+          },
+          "rfdata_out": {
+            "direction": "O"
+          },
+          "spc_out": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Lab6_PC_0_PC_out": {
+        "ports": [
+          "Lab6_PC_0/PC_out",
+          "Lab6_IMEM_0/address"
+        ]
+      },
+      "Lab6_IMEM_0_DataOut": {
+        "ports": [
+          "Lab6_IMEM_0/DataOut",
+          "IR_0/mem_data"
+        ]
+      },
+      "simple_reg_1_Aout": {
+        "ports": [
+          "simple_reg_1/Aout",
+          "ALU_0/in_B"
+        ]
+      },
+      "simple_reg_0_Aout": {
+        "ports": [
+          "simple_reg_0/Aout",
+          "ALU_0/in_A"
+        ]
+      },
+      "immediate_mux_0_B": {
+        "ports": [
+          "immediate_mux_0/B",
+          "simple_reg_1/Ain"
+        ]
+      },
+      "RF_0_out_data_0": {
+        "ports": [
+          "RF_0/out_data_0",
+          "simple_reg_0/Ain",
+          "lab6_DMEM_0/Address"
+        ]
+      },
+      "RF_0_out_data_1": {
+        "ports": [
+          "RF_0/out_data_1",
+          "immediate_mux_0/RF",
+          "lab6_DMEM_0/DataIn"
+        ]
+      },
+      "IR_0_src_reg2": {
+        "ports": [
+          "IR_0/src_reg2",
+          "immediate_mux_0/imm",
+          "STAGING_0/rf_1_in"
+        ]
+      },
+      "ALU_0_adder_out": {
+        "ports": [
+          "ALU_0/adder_out",
+          "simple_reg_2/Ain"
+        ]
+      },
+      "lab6_DMEM_0_DataOut": {
+        "ports": [
+          "lab6_DMEM_0/DataOut",
+          "MDR_0/MD_in"
+        ]
+      },
+      "IR_0_opcode": {
+        "ports": [
+          "IR_0/opcode",
+          "lab6_DECODE_0/opcode"
+        ]
+      },
+      "lab6_DECODE_0_WrX": {
+        "ports": [
+          "lab6_DECODE_0/WrX",
+          "STAGING_0/WrX_in"
+        ]
+      },
+      "lab6_DECODE_0_D": {
+        "ports": [
+          "lab6_DECODE_0/D",
+          "STAGING_0/D_in"
+        ]
+      },
+      "lab6_DECODE_0_MemWr": {
+        "ports": [
+          "lab6_DECODE_0/MemWr",
+          "STAGING_0/MemWr_in"
+        ]
+      },
+      "lab6_DECODE_0_MemRd": {
+        "ports": [
+          "lab6_DECODE_0/MemRd",
+          "STAGING_0/MemRd_in"
+        ]
+      },
+      "lab6_DECODE_0_sub": {
+        "ports": [
+          "lab6_DECODE_0/sub",
+          "STAGING_0/sub_in"
+        ]
+      },
+      "IR_0_dest_reg": {
+        "ports": [
+          "IR_0/dest_reg",
+          "STAGING_0/dst_in"
+        ]
+      },
+      "IR_0_src_reg1": {
+        "ports": [
+          "IR_0/src_reg1",
+          "STAGING_0/rf_0_in"
+        ]
+      },
+      "lab6_DECODE_0_spc": {
+        "ports": [
+          "lab6_DECODE_0/spc",
+          "STAGING_0/spc_in"
+        ]
+      },
+      "STAGING_0_Wrx_out": {
+        "ports": [
+          "STAGING_0/Wrx_out",
+          "RF_0/WrX"
+        ]
+      },
+      "STAGING_0_sub_out": {
+        "ports": [
+          "STAGING_0/sub_out",
+          "ALU_0/add_sub"
+        ]
+      },
+      "STAGING_0_rf_0_out": {
+        "ports": [
+          "STAGING_0/rf_0_out",
+          "RF_0/raddr_0"
+        ]
+      },
+      "STAGING_0_rf_1_out": {
+        "ports": [
+          "STAGING_0/rf_1_out",
+          "RF_0/raddr_1"
+        ]
+      },
+      "lab6_DECODE_0_imm": {
+        "ports": [
+          "lab6_DECODE_0/imm",
+          "STAGING_0/rfdata_in"
+        ]
+      },
+      "STAGING_0_rfdata_out": {
+        "ports": [
+          "STAGING_0/rfdata_out",
+          "immediate_mux_0/RF_imm"
+        ]
+      },
+      "STAGING_0_memWr_out": {
+        "ports": [
+          "STAGING_0/MemWr_out",
+          "lab6_DMEM_0/MemWr"
+        ]
+      },
+      "STAGING_0_MemRd_out": {
+        "ports": [
+          "STAGING_0/MemRd_out",
+          "lab6_DMEM_0/MemRd"
+        ]
+      }
+    }
+  }
+}

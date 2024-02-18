@@ -1,0 +1,16 @@
+#reg=16
+
+//separate the opcode from encoding with a single space
+opcode	encoding 
+LD 0000
+STR 0001
+SUB 0010
+ADD 0011
+DISP 0100  
+ADDI 0101
+SUBI 0110
+HALT 0111 
+BZ 1000
+BNZ 1001
+JMP 1010
+SPC 1011

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/L1_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/L1_simple_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1_simple_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab2_RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab2_RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/data_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.srcs/sim_1/new/imme_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imme_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab 2.srcs/sim_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/dcengr/Desktop/ELEN 122L/Lab 2/Lab2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab2_tb

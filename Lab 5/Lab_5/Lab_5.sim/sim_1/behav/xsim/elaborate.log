@@ -1,0 +1,47 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Apps/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 1440575cca594ac6948bff6ac23c5482 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot L5_tb_behav xil_defaultlib.L5_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab5_PC.v" Line 1. Module Lab5_PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 4/LSByte.v" Line 1. Module LSByte doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/MemMux.v" Line 1. Module MemMux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab5_MEM.v" Line 1. Module Lab5_MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/Lab5_IR.v" Line 1. Module Lab5_IR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab5_BranchPC.v" Line 1. Module Lab5_BranchPC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/CT_mux.v" Line 1. Module CT_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/BranchControl.v" Line 1. Module BranchControl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/ZE_16.v" Line 1. Module ZE_16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/SPC_mux.v" Line 1. Module SPC_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 4/SE_16.v" Line 1. Module SE_16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 5/Lab_5/Lab_5.srcs/sim_1/new/L5_SM.v" Line 1. Module L5_SM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 4/L4_RF.v" Line 1. Module L4_RF doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_ALU.v" Line 1. Module L1_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_simple_reg.v" Line 1. Module L1_simple_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_simple_reg.v" Line 1. Module L1_simple_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 1/L1_simple_reg.v" Line 1. Module L1_simple_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "Z:/dcengr/Desktop/ELEN 122L/Lab 2/data_mux.v" Line 1. Module data_mux doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Lab5_PC
+Compiling module xil_defaultlib.LSByte
+Compiling module xil_defaultlib.MemMux
+Compiling module xil_defaultlib.Lab5_MEM
+Compiling module xil_defaultlib.Lab5_IR
+Compiling module xil_defaultlib.Lab5_BranchPC
+Compiling module xil_defaultlib.CT_mux
+Compiling module xil_defaultlib.BranchControl
+Compiling module xil_defaultlib.ZE_16
+Compiling module xil_defaultlib.SPC_mux
+Compiling module xil_defaultlib.SE_16
+Compiling module xil_defaultlib.L5_SM
+Compiling module xil_defaultlib.L4_RF
+Compiling module xil_defaultlib.L1_ALU
+Compiling module xil_defaultlib.L1_simple_reg
+Compiling module xil_defaultlib.data_mux
+Compiling module xil_defaultlib.imm_mux
+Compiling module xil_defaultlib.L5_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot L5_tb_behav

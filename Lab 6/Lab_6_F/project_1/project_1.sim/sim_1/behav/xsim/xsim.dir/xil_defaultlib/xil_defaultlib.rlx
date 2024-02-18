@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Z:/122/Lab_6_F/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sim_1/new/Lab6_tb.v,1583299947,verilog,,,,L6_tb,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/ALU.v,1581382470,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/IR.v,,ALU,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/IR.v,1581382232,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/Lab6_DMEM.v,,IR,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/Lab6_DMEM.v,1581652856,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/Lab6_IMEM.v,,lab6_DMEM,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/Lab6_IMEM.v,1582934534,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/Lab6_PC.v,,Lab6_IMEM,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/Lab6_PC.v,1581652832,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/MDR.v,,Lab6_PC,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/MDR.v,1581383250,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/RF.v,,MDR,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/RF.v,1581382416,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/STAGING.v,,RF,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/STAGING.v,1583298609,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg1.v,,STAGING,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg1.v,1583299288,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v,,SimpleReg1,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/SimpleReg8.v,1583298712,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/WB_staging.v,,SimpleReg8,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/WB_staging.v,1583300801,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/h.v,,WB_staging,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/h.v,1583299889,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/immediate_mux.v,,HALT,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/immediate_mux.v,1581382606,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/lab6_DECODE.v,,immediate_mux,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/lab6_DECODE.v,1582935606,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/simple_reg.v,,Lab6_DECODE,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/simple_reg.v,1581382446,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/wbm.v,,simple_reg,,,,,,,,
+Z:/122/Lab_6_F/project_1/project_1.srcs/sources_1/new/wbm.v,1582934677,verilog,,Z:/122/Lab_6_F/project_1/project_1.srcs/sim_1/new/Lab6_tb.v,,WBMux,,,,,,,,

@@ -1,0 +1,412 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-2",
+      "name": "Lab_2",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1"
+    },
+    "design_tree": {
+      "Lab2_RF_0": "",
+      "L1_ALU_0": "",
+      "L1_simple_reg_0": "",
+      "L1_simple_reg_1": "",
+      "L1_simple_reg_2": "",
+      "imme_mux_0": "",
+      "split_switch_0": ""
+    },
+    "ports": {
+      "add_sub": {
+        "direction": "I"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "10000000000"
+          }
+        }
+      },
+      "load_en": {
+        "direction": "I"
+      },
+      "rf_select": {
+        "direction": "I"
+      },
+      "sw_select": {
+        "direction": "I"
+      },
+      "sw_data": {
+        "direction": "I"
+      },
+      "RdX": {
+        "direction": "I"
+      },
+      "RdY": {
+        "direction": "I"
+      },
+      "WrX": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "Lab2_RF_0": {
+        "vlnv": "xilinx.com:module_ref:Lab2_RF:1.0",
+        "xci_name": "Lab_2_Lab2_RF_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Lab2_RF",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "AddrX": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "AddrY": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "RdX": {
+            "direction": "I"
+          },
+          "RdY": {
+            "direction": "I"
+          },
+          "WrX": {
+            "direction": "I"
+          },
+          "Dataout": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "r_0": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "r_1": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "r_2": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "r_3": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "L1_ALU_0": {
+        "vlnv": "xilinx.com:module_ref:L1_ALU:1.0",
+        "xci_name": "Lab_2_L1_ALU_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "L1_ALU",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_A": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "in_B": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "add_sub": {
+            "direction": "I"
+          },
+          "adder_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "L1_simple_reg_0": {
+        "vlnv": "xilinx.com:module_ref:L1_simple_reg:1.0",
+        "xci_name": "Lab_2_L1_simple_reg_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "L1_simple_reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reg_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "reg_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "L1_simple_reg_1": {
+        "vlnv": "xilinx.com:module_ref:L1_simple_reg:1.0",
+        "xci_name": "Lab_2_L1_simple_reg_1_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "L1_simple_reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reg_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "reg_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "L1_simple_reg_2": {
+        "vlnv": "xilinx.com:module_ref:L1_simple_reg:1.0",
+        "xci_name": "Lab_2_L1_simple_reg_2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "L1_simple_reg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reg_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "load_en": {
+            "direction": "I"
+          },
+          "reg_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "imme_mux_0": {
+        "vlnv": "xilinx.com:module_ref:imme_mux:1.0",
+        "xci_name": "Lab_2_imme_mux_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "imme_mux",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rf_data": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "sw_data": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "rf_select": {
+            "direction": "I"
+          },
+          "sw_select": {
+            "direction": "I"
+          },
+          "adder_b": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "split_switch_0": {
+        "vlnv": "xilinx.com:module_ref:split_switch:1.0",
+        "xci_name": "Lab_2_split_switch_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "split_switch",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "switches_in": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "data": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "addrx": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "addry": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "operation": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "execute": {
+            "direction": "O"
+          },
+          "clk_standin": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "L1_simple_reg_0_reg_out": {
+        "ports": [
+          "L1_simple_reg_0/reg_out",
+          "L1_ALU_0/in_A"
+        ]
+      },
+      "L1_ALU_0_adder_out": {
+        "ports": [
+          "L1_ALU_0/adder_out",
+          "L1_simple_reg_1/reg_in"
+        ]
+      },
+      "Lab2_RF_0_Dataout": {
+        "ports": [
+          "Lab2_RF_0/Dataout",
+          "L1_simple_reg_0/reg_in",
+          "L1_simple_reg_2/reg_in"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "Lab2_RF_0/clk",
+          "L1_simple_reg_2/clk",
+          "L1_simple_reg_0/clk",
+          "L1_simple_reg_1/clk"
+        ]
+      },
+      "add_sub_1": {
+        "ports": [
+          "add_sub",
+          "L1_ALU_0/add_sub"
+        ]
+      },
+      "load_en_1": {
+        "ports": [
+          "load_en",
+          "L1_simple_reg_0/load_en",
+          "L1_simple_reg_1/load_en",
+          "L1_simple_reg_2/load_en"
+        ]
+      },
+      "L1_simple_reg_1_reg_out": {
+        "ports": [
+          "L1_simple_reg_1/reg_out",
+          "imme_mux_0/rf_data"
+        ]
+      },
+      "rf_select_1": {
+        "ports": [
+          "rf_select",
+          "imme_mux_0/rf_select"
+        ]
+      },
+      "sw_select_1": {
+        "ports": [
+          "sw_select",
+          "imme_mux_0/sw_select"
+        ]
+      },
+      "sw_data_1": {
+        "ports": [
+          "sw_data",
+          "imme_mux_0/sw_data"
+        ]
+      },
+      "RdX_1": {
+        "ports": [
+          "RdX",
+          "Lab2_RF_0/RdX"
+        ]
+      },
+      "WrX_1": {
+        "ports": [
+          "WrX",
+          "Lab2_RF_0/WrX"
+        ]
+      },
+      "RdY_1": {
+        "ports": [
+          "RdY",
+          "Lab2_RF_0/RdY"
+        ]
+      },
+      "split_switch_0_addrx": {
+        "ports": [
+          "split_switch_0/addrx",
+          "Lab2_RF_0/AddrX"
+        ]
+      },
+      "split_switch_0_addry": {
+        "ports": [
+          "split_switch_0/addry",
+          "Lab2_RF_0/AddrY"
+        ]
+      },
+      "split_switch_0_data": {
+        "ports": [
+          "split_switch_0/data",
+          "Lab2_RF_0/DataIn"
+        ]
+      }
+    }
+  }
+}
